@@ -1,0 +1,36 @@
+{
+    "model_path": "D:\\111_Work\\MA\\result\\3452\\selected\\v1a3v05gd2\\AGV\\chosen.onnx",
+    "product_path": "D:\\111_Work\\Instances\\simToReal\\product11.json",
+    "stations_path":"D:\\111_Work\\Instances\\simToReal\\Field2C.json",
+    "distances_path": "D:/111_Work/MA/connection/distances.json",
+    "receive_file_path":"D:\\111_Work\\MA\\temp\\receivedMessages.txt",
+    "send_file_path" : "D:\\111_Work\\MA\\temp\\messagesToSend.txt",
+    "ip":"172.26.255.255",
+    "port":5441,
+    "bs_processingTime":20,
+    "agent1InitPos":[0,0],
+    "agent2InitPos":[0,0],
+    "max_retries": 3,
+
+
+    "RS1-tasks":[2,3],
+    "RS2-tasks":[4,5],
+    "1paymentTask":2,
+    "2paymentTask":4,
+
+    "n_agents":3,
+    "agent1_id":2,
+    "agent1_init_waypoint":"C",
+    "agent1_init_machine_point":"Z42",
+    
+    "agent2_id":3,    
+    "agent2_init_waypoint":"C",
+    "agent2_init_machine_point":"Z52",
+
+    
+    "agent3_id":1,
+    "agent3_init_waypoint":"C",
+    "agent3_init_machine_point":"Z62"
+    
+
+}
