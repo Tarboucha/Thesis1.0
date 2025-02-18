@@ -7,15 +7,15 @@ The objective is to bridge the gap between virtual training environments and pra
 
 This repository is organized into the following main folders:
 
-📂 Assets
+# Assets
 This folder contains all assets related to the Unity project, including scripts, textures, prefabs, and configurations.
 For more details about its structure and contents, refer to the README file within this folder.
 
-📂 Intermediate Layer
+# Intermediate Layer
 This folder contains the code responsible for exporting trained reinforcement learning models from the Unity simulation to a real-world setup.
 The intermediate layer ensures seamless integration and deployment of models for practical applications.
 
-📂 Export
+# Export
 This folder includes a Python script designed to convert real-world characteristics into a JSON file format that is adapted for Unity.
 This transformation allows the simulation to accurately interpret and utilize real-world data, ensuring improved realism and adaptability.
 
